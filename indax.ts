@@ -33,6 +33,7 @@ else if ( calculator.operator === "multiplication") {
 else if ( calculator.operator === "division") {
             console.log(calculator.firstvalue / calculator.secondvalue)
 }
-
-            
-        
+else {
+    console.log ( "please select your valid operator")
+    
+}        
