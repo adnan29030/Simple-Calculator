@@ -1,6 +1,6 @@
 {
   "name": "calculator290300",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "my first calculator dedicated to Sir ZIA KHAN",
   "main": "index.js",
   "type": "module",

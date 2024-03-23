@@ -18,13 +18,13 @@ let calculator = await inquirer.prompt([
         message: " Select your operator for performing program",
         type:   "list",
         name : "operator",
-        choices : [ "addition" , "subtraction" , "multiplication" , "divison" ],
+        choices : [ "addition" , "subtraction" , "multiplication" , "division" ],
     },
 ])
 if ( calculator.operator === "addition") {
 console.log(calculator.firstvalue + calculator.secondvalue)
 }
-else if ( calculator.operator === "sbtraction") {
+else if ( calculator.operator === "subtraction") {
     console.log(calculator.firstvalue - calculator.secondvalue)
 }
 else if ( calculator.operator === "multiplication") {
